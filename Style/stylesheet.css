@@ -6,34 +6,28 @@ body {
   margin: auto;
 }
 
-/* skyscaper plus more */
-main {
-  background: url(../Images/skyscraper.jpg) no-repeat center center;
-  background-size: cover;
-  height: 700px;
-}
-
-nav {
-  height: 55px;
-  background-color: rgba(0, 0, 0, 0.5);
-}
-
-ul {
-  margin: auto;
-  text-align: right;
-  margin-right: 40px;
-}
-
 a {
   text-decoration: none;
   color: white;
 }
 
-li {
+/* skyscaper plus more */
+.navbar {
+  height: 55px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.navbar ul {
+  margin: auto;
+  text-align: right;
+  margin-right: 40px;
+}
+
+.navbar li {
     float: left;
     font-family: bebas neue, helvetica, gill sans;
     font-weight: 100;
-    padding: 20px;
+    padding: 20px 10px;
     width: 90px;
     margin: 0;
     height: 55px;
@@ -41,14 +35,37 @@ li {
     transition: 0.5s ease;
     opacity: .6;
     list-style: none;
+    text-align: center;
 }
 
-li:hover {
+
+.navbar li:hover {
     border-bottom: 3px solid white;
     background-color: rgba(0, 0, 0, 0.4);
+
 }
 
-h1 {
+.navbar .buttons {
+  margin-right: 20px;
+  float: right;
+  padding: 15px 10px;
+  padding: 0;
+}
+
+.navbar img {
+  vertical-align: middle;
+  height: 20px;
+  width: 20px;
+  margin: 15px 10px;
+}
+
+main {
+  background: url(../Images/skyscraper.jpg) no-repeat center center;
+  background-size: cover;
+  height: 700px;
+}
+
+main h1 {
   font-size: 110px;
   color: white;
   font-family: bebas neue, helvetica, gill sans;
@@ -56,7 +73,7 @@ h1 {
   margin: 0;
   padding: 290px;
   font-weight: 100;
-text-shadow: 4px 4px 14px #000000;
+  text-shadow: 4px 4px 14px #000000;
   letter-spacing: 2px;
 }
 
