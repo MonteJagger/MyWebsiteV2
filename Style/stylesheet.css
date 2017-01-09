@@ -11,7 +11,6 @@ main {
   background: url(../Images/skyscraper.jpg) no-repeat center center;
   background-size: cover;
   height: 700px;
-
 }
 
 nav {
@@ -25,24 +24,37 @@ ul {
   margin-right: 40px;
 }
 
-li {
+a {
+  text-decoration: none;
   color: white;
-  font-family: bebas neue, helvetica, gill sans;
-  font-weight: 100;
-  padding: 20px;
-  display: inline-block;
-  opacity: .6;
+}
+
+li {
+    float: left;
+    font-family: bebas neue, helvetica, gill sans;
+    font-weight: 100;
+    padding: 20px;
+    width: 90px;
+    margin: 0;
+    height: 55px;
+    border-bottom: 0px solid transparent;
+    transition: 0.5s ease;
+    opacity: .6;
+    list-style: none;
 }
 
 li:hover {
-  background-color: rgba(0, 0, 0, 0.4);
+    border-bottom: 3px solid white;
+    background-color: rgba(0, 0, 0, 0.4);
 }
+
 h1 {
   font-size: 110px;
   color: white;
   font-family: bebas neue, helvetica, gill sans;
   text-align: center;
-  margin: 250px;
+  margin: 0;
+  padding: 290px;
   font-weight: 100;
 text-shadow: 4px 4px 14px #000000;
   letter-spacing: 2px;
