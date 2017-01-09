@@ -65,7 +65,7 @@ main {
   height: 700px;
 }
 
-main h1 {
+.navbar h1 {
   font-size: 110px;
   color: white;
   font-family: bebas neue, helvetica, gill sans;
@@ -98,6 +98,14 @@ main h1 {
   width: 150px;
 }
 
-h2 {
+.main h2 {
   font-size: 1.5em;
+  font-family: bebas neue, helvetica, gill sans;
+}
+
+.main p {
+  font-family: helvetica, gill sans;
+  font-size: 13px;
+  font-weight: 300;
+  text-transform: none;
 }
