@@ -104,7 +104,7 @@ main {
 }
 
 .main p {
-  font-family: helvetica, gill sans;
+  font-family: helvetica, futura, gill sans;
   font-size: 13px;
   font-weight: 300;
   text-transform: none;
