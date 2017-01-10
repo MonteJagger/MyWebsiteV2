@@ -4,6 +4,7 @@
 
 body {
   margin: auto;
+  padding: 0;
 }
 
 a {
@@ -31,7 +32,7 @@ a {
     width: 90px;
     margin: 0;
     height: 55px;
-    border-bottom: 0px solid transparent;
+    border-bottom: 1px solid transparent;
     transition: 0.5s ease;
     opacity: .6;
     list-style: none;
@@ -81,27 +82,42 @@ main {
   font-weight: 400;
 }
 
-.main {
-  height: 250px;
+.about_me {
+  height: 400px;
   width: 700px;
   margin: 100px auto;
 }
 
-.main img{
+.about_me img{
   float: left;
   margin: auto 20px;
-  height: 150px;
-  width: 150px;
+  height: 400px;
+
 }
 
-.main h2 {
+.about_me h2 {
   font-size: 1.5em;
   font-family: bebas neue, helvetica, gill sans;
 }
 
-.main p {
+.about_me p {
   font-family: helvetica, futura, gill sans;
   font-size: 13px;
   font-weight: 300;
   text-transform: none;
+}
+
+.portfolio {
+  width: 100%;
+  margin: 0;
+  background-color: #d2d2d2;
+}
+.portfolio div {
+  margin: 0 20px;
+}
+
+.portfolio img {
+  height: 800px;
+
+  margin: 0;
 }
