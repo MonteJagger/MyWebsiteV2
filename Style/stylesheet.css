@@ -25,24 +25,26 @@ a {
 }
 
 .navbar li {
-    float: left;
-    font-family: 'Bebas Neue', helvetica, gill sans;
-    font-weight: 100;
-    padding: 20px 10px;
-    width: 90px;
-    margin: 0;
-    height: 55px;
-    border-bottom: 1px solid transparent;
-    transition: 0.5s ease;
-    opacity: .6;
-    list-style: none;
-    text-align: center;
+  font-size: 12px;
+  float: left;
+  font-family: 'Josefin Sans', 'BenchNine', gill sans;
+  text-transform: uppercase;
+  font-weight: 200;
+  padding: 24px 10px;
+  width: 90px;
+  margin: 0 6px;
+  height: 55px;
+  border-bottom: 1px solid transparent;
+  transition: 0.5s ease;
+  opacity: .6;
+  list-style: none;
+  text-align: center;
 }
 
 
 .navbar li:hover {
-    border-bottom: 3px solid white;
-    background-color: rgba(0, 0, 0, 0.4);
+  border-bottom: 3px solid white;
+  background-color: rgba(0, 0, 0, 0.4);
 
 }
 
@@ -69,17 +71,21 @@ main {
 .navbar h1 {
   font-size: 110px;
   color: white;
-  font-family: 'Bebas Neue', helvetica, gill sans;
+  font-family: 'Lato', 'Josefin Sans', gill sans;
+  font-weight: 300;
+  text-transform: uppercase;
   text-align: center;
   margin: 0;
   padding: 290px;
-  font-weight: 100;
   text-shadow: 4px 4px 14px #000000;
-  letter-spacing: 2px;
+  letter-spacing: -8px;
 }
 
 .last_name {
-  font-weight: 400;
+  font-family: 'Josefin Sans', gill sans;
+  font-weight: bold;
+  margin-left: 10px;
+  letter-spacing: 10px;
 }
 
 .about_me {
@@ -97,7 +103,8 @@ main {
 
 .about_me h2 {
   font-size: 1.5em;
-  font-family: 'Bebas Neue', helvetica, gill sans;
+  font-family: 'Josefin Sans', 'BenchNine', gill sans;
+  text-transform: uppercase;
 }
 
 .about_me p {
