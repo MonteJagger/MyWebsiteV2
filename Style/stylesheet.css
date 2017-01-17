@@ -1,4 +1,4 @@
-* {
+ * {
   box-sizing: border-box;
 }
 
@@ -66,17 +66,19 @@ main {
   background: url(../Images/skyscraper.jpg) no-repeat center center;
   background-size: cover;
   height: 700px;
+  min-width: 827px;
 }
 
-.navbar h1 {
+.main_name {
   font-size: 7em;
   color: white;
   font-family: 'Lato', 'Josefin Sans', gill sans;
   font-weight: 300;
   text-transform: uppercase;
   text-align: center;
+  padding-top: 226px;
   margin: 0;
-  padding: 290px;
+  vertical-align: middle;
   text-shadow: 4px 4px 14px #000000;
   letter-spacing: -8px;
 }
