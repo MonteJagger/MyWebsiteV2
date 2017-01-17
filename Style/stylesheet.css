@@ -55,6 +55,10 @@ a {
   padding: 0;
 }
 
+.buttons a:hover {
+  filter: brightness(80%);
+}
+
 .navbar img {
   vertical-align: middle;
   height: 20px;
@@ -76,7 +80,7 @@ main {
   font-weight: 300;
   text-transform: uppercase;
   text-align: center;
-  padding-top: 226px;
+  padding-top: 280px;
   margin: 0;
   vertical-align: middle;
   text-shadow: 4px 4px 14px #000000;
@@ -129,4 +133,12 @@ main {
   height: 800px;
 
   margin: 0;
+}
+
+footer {
+  font-family: 'Josefin Sans', 'BenchNine', gill sans;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-align: center;
+  margin: 10px;
 }
